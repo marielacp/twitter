@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+     color:rgb(102, 117, 127);
+    font-family: "Segoe UI",Arial,sans-serif;
+}
+
+.head{
+    position: relative;
+    background-color:#63D2F0;
+    color: white;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+}
+
+h1{
+    width: 100%;
+    height: 80px;
+    display: block;
+    padding-top:20px;
+}
+
+.head h1{
+    color: white;
+}
+   
+
+.fondo{
+    background-image:url(../assets/imagenes/fondo.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+     background-position: center;
+     height:1000px;
+     width: 100%;
+     margin-left: auto;
+     margin-right: auto;
+ 
+}
+
+.conteiner{
+    display: inline-block;
+    background-color:white;
+    color:black;
+    width: 30%;
+    height: 220px;
+    margin-top: 10px;
+    margin-left: 20%;
+    padding-top: 0%;
+    color:rgb(102, 117, 127);
+    border-radius:6px;
+    border:1px solid #63D2F0;
+  
+    
+}
+.conteiner h1,h3 {
+    margin: 0;
+    padding-left: 4%;   
+}
+
+.conteiner h2{
+    margin-top: 15%;
+    padding-left: 2%;
+    font-size: 20px;
+    color: rgb(29, 161, 242);
+}
+
+#conteiner-1{
+    position: absolute;
+    left:31%;
+    height: 150px;
+}
+
+#texto{
+   width: 330px;
+ }
+
+
+.color1{
+    color: red;
+}
+.caracteres{
+   outline: none;
+    color: blue;
+    font-size: 18px;
+    border:0;
+    text-align: right;
+}
+
+#txttarea{
+    border:0;
+    width: 400px;
+    height: 35px;
+    outline: none;
+    font-size: 13px;
+    color:rgb(102, 117, 127);
+  }
+
+#txttarea:first-letter {  
+    text-transform: uppercase;
+}
+
+hr{
+    height: 2px;
+    border: 0;
+    background-color: #32d7e6;
+
+}
+
+.btnh{
+    font-size: 9pt;
+    text-decoration: none;
+    padding: 1.5% 7%;
+    background:#1da1f2;
+    color: white;
+    border-radius: 15%;
+    text-transform: uppercase;
+}
+.btnd {
+    font-size: 9pt;
+    text-decoration: none;
+    padding: 1.5% 7%;
+    background:#D7DBDD;
+    color: #666666;
+    border-radius: 15%;
+    text-transform: uppercase;
+}
+
+.txt1{
+    border:0;
+    width: 79%;
+    height: 50px;
+    outline: none;
+    font-size: 13px;
+    border-radius: 5px;
+    margin: 2% 11.5% 2%;
+    padding: 5px;
+    color:rgb(102, 117, 127);
+ }
