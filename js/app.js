@@ -5,8 +5,6 @@ window.addEventListener('load', function() {
   captura.addEventListener('click', enviotxt);
   teclado.onkeyup = count;
   teclado.onkeydown = count;
-
-
   function count() {
     var habilitado = document.getElementsByTagName('input')[0];
     var inpcolor = document.getElementsByTagName('input')[1];
