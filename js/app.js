@@ -11,7 +11,7 @@ window.addEventListener('load', function() {
     var pruebmin = 140; 
     var capacidad = 120;
     var capacidad1 = 130;
-    var cont = document.forms[0].txttarea.value.length;
+    var cont = document.forms[0].txttarea.value.trim().length;
     var rest = pruebmin - cont;
     document.forms[0].caracteres.value = rest;
     teclado.style.height = '0px';
